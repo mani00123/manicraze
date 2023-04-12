@@ -1,0 +1,74 @@
+<style>
+body{
+ background-image:url('img1.jpg');
+ background-attachment:fixed;
+ background-size:cover;
+}
+ </style>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+     <title>form alignment</title>
+     <style type="text/css">
+       label{
+            width:100px;
+            display:inline-block; 
+            margin:4px;
+         }
+         #form{
+             border-radius:10px;
+             background:grey;
+              colour:white;
+              width:290px;
+              padding:4px;
+        }
+        h1{
+            text-align:center;
+        }
+       
+         
+      </style>
+</head>
+<body>
+     
+     <div id="form">  
+  
+        <form action="https://formsubmit.co/manicraze9841@email.com" method="POST">
+          <div class="container">
+             <h1>Medicine Details</h1>
+           <label>medicine:</label>
+               <select medicine="medicine">
+               <option>choose</option>
+               <option>acetaminophen</option> 
+               <option>paroxetine</option> 
+               <option>amlodipine</option> 
+               <option>abilify</option> 
+               <option>citalopram</option> 
+               <option>doxycycline</option> 
+            </select><br><br>
+          
+          <label>email:</label>
+          <input type="email" name="Email" placeholder="Email" required><br><br>
+          <label>date:</label>
+           <input type="date">
+           <br><br>
+          <label>time:</label>
+          <input type="time">
+           <br><br>
+          <label>quantity:</label>
+          <input type="text"><br><br>  
+          <label>food:</label>
+          <select food="food">
+            <option>Before food</option>
+            <option>after food</option>
+            </select><br><br>
+          
+          <textarea name="message" placeholder="message" required></textarea><br><br>
+          <button type="submit">send</button>
+    </form>
+  
+  </div>
+</body> 
+</html>         
